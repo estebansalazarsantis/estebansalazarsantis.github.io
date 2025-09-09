@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Esteban Salazar — Portafolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Esteban Salazar</h1>
+      <p class="role">Team Leader RRSS • Soporte Técnico N2 • Desarrollo Web</p>
+      <p class="cta">
+        <a class="btn" href="CV_Esteban_Eduardo_Salazar_Santis.pdf" target="_blank" rel="noopener">Descargar CV (PDF)</a>
+        <a class="btn outline" href="#contact">Contactar</a>
+      </p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>Sobre mí</h2>
+      <p>Soy Esteban Salazar, Ingeniero en Ejecución en Informática con experiencia en soporte técnico, backoffice móvil y liderazgo de equipos de redes sociales. Me especializo en administración de bases de datos, soporte al cliente y soluciones web prácticas para negocios locales.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Habilidades</h2>
+      <ul class="skills">
+        <li>Administración de bases de datos</li>
+        <li>WordPress / HTML / CSS</li>
+        <li>Soporte técnico N2 / Backoffice</li>
+        <li>Gestión de redes sociales</li>
+        <li>Desarrollo móvil (proyecto POS — Flutter planificado)</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Proyectos destacados</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>POS Android — (en desarrollo)</h3>
+          <p>App para ventas con lectura de código de barras, control de stock y sumatoria diaria. Tech: Flutter, SQLite, Camera API.</p>
+        </article>
+
+        <article class="card">
+          <h3>Controles Concepción — Servicio a domicilio</h3>
+          <p>Servicio de duplicado y programación de mandos remotos (clientes satisfechos, trabajos en terreno). Contacto: +56 9 7795 6214.</p>
+        </article>
+
+        <article class="card">
+          <h3>Webs anteriores</h3>
+          <p>Desarrollos web para Cabañas Arrayan y VMF Los Ángeles (ejemplos de sitios estáticos).</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experiencia</h2>
+      <ul class="timeline">
+        <li><strong>Mundo Pacífico</strong> — Team Leader RRSS (Nov 2021 - Actual)</li>
+        <li><strong>Claro Chile</strong> — Back servicio técnico (2010 - 2017)</li>
+        <li><strong>Desarrollador Web</strong> — Proyectos freelance (2006 - 2007)</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contacto</h2>
+      <p>Email: <a href="mailto:esteban.salazar.santis@gmail.com">esteban.salazar.santis@gmail.com</a></p>
+      <p>Teléfono: +56 9 7795 6214</p>
+      <p>Concepción, Chile</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>© <span id="year"></span> Esteban Salazar — <a href="https://github.com/tu_usuario" target="_blank" rel="noopener">github/tu_usuario</a></small>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
