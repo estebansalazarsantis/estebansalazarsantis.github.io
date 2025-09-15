@@ -70,9 +70,37 @@ h2{margin-bottom:20px;font-size:1.6rem;text-align:center}
 
 /* TIMELINE */
 .timeline{list-style:none;padding:0;margin:0}
-.timeline li{margin-bottom:12px;padding-left:20px;position:relative}
+.timeline li{margin-bottom:20px;padding-left:20px;position:relative}
 .timeline li::before{
   content:"●";position:absolute;left:0;color:var(--accent)
+}
+.timeline em{color:var(--muted);font-style:italic;font-size:0.95rem}
+.timeline span{color:var(--muted);font-size:0.85rem}
+
+/* EDUCACIÓN */
+#education .timeline li::before{
+  content:"🎓"; /* icono especial para educación */
+  font-size:1rem;
+}
+
+/* OTROS CONOCIMIENTOS */
+#knowledge ul{
+  display:flex;flex-wrap:wrap;gap:12px;
+  list-style:none;padding:0;justify-content:center;
+}
+#knowledge li{
+  background:#f0f9ff;
+  border:1px solid #dbeafe;
+  padding:10px 16px;
+  border-radius:8px;
+  transition:.3s;
+  color:#1e3a8a;
+  font-size:0.95rem;
+  box-shadow:0 2px 4px rgba(0,0,0,0.05);
+}
+#knowledge li:hover{
+  background:#dbeafe;
+  transform:translateY(-3px);
 }
 
 /* CONTACT */
